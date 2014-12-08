@@ -52,7 +52,6 @@ class nagios::check::mysql_health (
         Package <| tag == $pkgname |>
     }
 
-    }
   }
 
   Package <| tag == 'nagios-plugins-perl' |>
